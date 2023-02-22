@@ -67,15 +67,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ban banh.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="QLNhanVien.aspx" />
+    <Content Include="QLPhong.aspx" />
     <Content Include="Web.config" />
     <Content Include="WedForm.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ban banh.aspx.cs">
+      <DependentUpon>ban banh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ban banh.aspx.designer.cs">
+      <DependentUpon>ban banh.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNhanVien.aspx.cs">
+      <DependentUpon>QLNhanVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QLNhanVien.aspx.designer.cs">
+      <DependentUpon>QLNhanVien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QLPhong.aspx.cs">
+      <DependentUpon>QLPhong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QLPhong.aspx.designer.cs">
+      <DependentUpon>QLPhong.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WedForm.aspx.cs">
       <DependentUpon>WedForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -85,6 +109,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\trash-can-icon-vector-delete-600w-1722113617.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -94,7 +119,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
